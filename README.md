@@ -4,7 +4,7 @@ This docker aims to setup the sauce connect proxy of Saucelabs that allows you t
 
 ## Use with `docker`
 
-    docker run thetribe/sauce-connect:4.5.3 sc -v -u SAUCELABS-USER -k SAUCELABS-TOKEN --readyfile sauce-ready
+    docker run thetribe/sauce-connect:4.5.4 sc -v -u SAUCELABS-USER -k SAUCELABS-TOKEN --readyfile sauce-ready
 
 ## Use with `docker-compose`
 
@@ -12,5 +12,5 @@ In your `docker-compose.yml`:
 
     services:
         sauce-connect:
-            image: thetribe/sauce-connect:4.5.3
+            image: thetribe/sauce-connect:4.5.4
             command: sc -v -u SAUCELABS-USER -k SAUCELABS-TOKEN --readyfile sauce-ready
