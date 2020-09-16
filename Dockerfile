@@ -1,6 +1,6 @@
 FROM debian:stretch
 
-ENV SAUCE_VERSION 4.5.4
+ENV SAUCE_VERSION 4.6.2
 WORKDIR /usr/local/sauce-connect
 
 RUN apt-get update -qqy && apt-get install -qqy wget \
